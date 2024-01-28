@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+iratein-frontend/node_modules
+iratein-frontend/.pnp
+iratein-frontend/.pnp.js
+
+# testing
+iratein-frontend/coverage
+
+# production
+iratein-frontend/build
+
+# misc
+iratein-frontend/.DS_Store
+iratein-frontend/.env.local
+iratein-frontend/.env.development.local
+iratein-frontend/.env.test.local
+iratein-frontend/.env.production.local
+
+/iratein-frontend/npm-debug.log*
+/iratein-frontend/yarn-debug.log*
+/iratein-frontend/yarn-error.log*
+
+/iretein_backend/.venv/
+/iretein_backend/.idea/
+.idea
